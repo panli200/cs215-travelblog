@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Travel blog</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<link rel="icon" href="img/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="//fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+	<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+<body>
+	<header>
+		<div class="wrap">
+			<p id="brandname"><i class="fa fa-plane-departure"></i> <a href="./">TravelBlog</a></p>
+			<nav>
+				<ul>
+					<li><a href="post.html">New Post</a></li>
+					<li><a href="login.html">Login</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<h1>Register</h1>
+		<section>
+			<div id="login-wrapper">
+				<form action="auth/signup.php" method="post">
+					<div class="form-group">
+						<lable for="username">Username:</lable>
+						<input type="text" id="username" name="userName" placeholder="Your username..." />
+					</div>
+					<div class="form-group">
+						<lable for="realname">Real name:</lable>
+						<input type="text" id="realname" name="realname" placeholder="Your real name..." />
+					</div>
+					<div class="form-group">
+						<lable for="dateofbirth">Date of birth:</lable>
+						<input type="date" id="dateofbirth" name="dateofbirth" placeholder="Your date of birth..." />
+					</div>
+					<div class="form-group">
+						<lable for="picture">Your picture:</lable>
+						<input type="file" id="picture" name="picture" />
+					</div>
+					<div class="form-group">
+						<lable for="password">Password:</lable>
+						<input type="password" id="password" name="passWord" placeholder="Your password..." />
+					</div>
+					<div class="form-group">
+						<lable for="comfirmpwd">Confirm Password:</lable>
+						<input type="password" id="comfirmpwd" name="re-passWord" placeholder="Confirm your password..." />
+					</div>
+					<button type="submit" class="btn-success">Register</button>
+				</form>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<p id="copyright"> &copy; CS 215 - All rights reserved!</p> 
+	</footer>
+</body>
+</html>
