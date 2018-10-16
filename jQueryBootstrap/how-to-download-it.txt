@@ -4,3 +4,4 @@ You can always download it following the steps below:
 #1. Go to this link: https://github.com/web-frankwang/cs215-travelblog
 #2. Click button “Clone or download” 
 #3. Click “Download ZIP”. 
+#4. Uncompressed that file, and you will find a folder called 'jQueryBootstrap'. 
