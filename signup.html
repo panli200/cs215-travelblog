@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="//fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
 	<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<script type="text/javascript" src="js/formValidate.js"></script>
 </head>
 <body>
 	<header>
@@ -25,30 +26,41 @@
 		<h1>Register</h1>
 		<section>
 			<div id="login-wrapper">
-				<form action="auth/signup.php" method="post">
+				<form action="auth/signup.php" method="post" id="signupForm">
 					<div class="form-group">
 						<lable for="username">Username:</lable>
-						<input type="text" id="username" name="userName" placeholder="Your username..." />
+						<span id="usernameInfo"></span>
+						<input type="text" id="username" name="userName" placeholder="Your username..." required="required" />
+					</div>
+					<div class="form-group">
+						<lable for="email">Email Address:</lable>
+						<span id="emailInfo"></span>
+						<input type="email" id="email" name="email" placeholder="Your email address..." required="required" />
 					</div>
 					<div class="form-group">
 						<lable for="realname">Real name:</lable>
-						<input type="text" id="realname" name="realname" placeholder="Your real name..." />
+						<span id="realnameInfo"></span>
+						<input type="text" id="realname" name="realname" placeholder="Firstname Lastname" required="required"/>
 					</div>
 					<div class="form-group">
 						<lable for="dateofbirth">Date of birth:</lable>
-						<input type="date" id="dateofbirth" name="dateofbirth" placeholder="Your date of birth..." />
+						<span></span>
+						<input type="date" id="dateofbirth" name="dateofbirth" placeholder="Your date of birth..." required="required" />
 					</div>
 					<div class="form-group">
 						<lable for="picture">Your picture:</lable>
+						<span></span>
 						<input type="file" id="picture" name="picture" />
 					</div>
 					<div class="form-group">
 						<lable for="password">Password:</lable>
-						<input type="password" id="password" name="passWord" placeholder="Your password..." />
+						<span id="passwordInfo"></span>
+						<input type="password" id="password" name="passWord" placeholder="Your password..." required="required" />
 					</div>
 					<div class="form-group">
 						<lable for="comfirmpwd">Confirm Password:</lable>
-						<input type="password" id="comfirmpwd" name="re-passWord" placeholder="Confirm your password..." />
+						<span id="confirmInfo"></span>
+						<input type="password" id="comfirmpwd" name="re-passWord" placeholder="Confirm your password..." required="required"/>
 					</div>
 					<button type="submit" class="btn-success">Register</button>
 				</form>
@@ -58,5 +70,6 @@
 	<footer>
 		<p id="copyright"> &copy; CS 215 - All rights reserved!</p> 
 	</footer>
+	<script type="text/javascript" src="js/formValidater.js"></script>
 </body>
 </html>

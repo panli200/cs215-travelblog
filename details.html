@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="//fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
 	<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<script type="text/javascript" src="js/formValidate.js"></script>
 </head>
 <body>
 	<header>
@@ -43,7 +44,8 @@
 			<h3>Leave you comments here...</h3>
 			<div class="post-comment">
 				<textarea name="user-comment" id="user-comment" rows="10"></textarea>
-				<button class="btn btn-1">Disable</button>	
+				<p class="buttomcounter"><span id="character">250</span> characters.</p>
+				<button class="btn btn-1" id="toggleBtn">Disable</button>	
 				<button class="btn">Post comment</button>
 			</div>
 			<h3>2 Comments</h3>
@@ -68,5 +70,6 @@
 	<footer>
 		<p id="copyright"> &copy; CS 215 - All rights reserved!</p> 
 	</footer>
+	<script type="text/javascript" src="js/formValidater.js"></script>
 </body>
 </html>

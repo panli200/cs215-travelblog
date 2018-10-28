@@ -218,6 +218,11 @@ ul.comment-list {
 	color: grey;
 }
 
+.buttomcounter {
+	font-size: 0.8rem;
+	text-align: right;
+}
+
 /* User detail page */
 .user-detail {
 	height: 275px;

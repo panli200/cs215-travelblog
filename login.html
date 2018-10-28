@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="//fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
 	<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<script type="text/javascript" src="js/formValidate.js"></script>
 </head>
 <body>
 	<header>
@@ -25,14 +26,16 @@
 		<h1>Login</h1>
 		<section>
 			<div id="login-wrapper">
-				<form action="auth/login.php" method="post">
+				<form action="auth/login.php" method="post" id="loginForm">
 					<div class="form-group">
 						<lable for="username">Username:</lable>
-						<input type="text" id="username" name="userName" placeholder="Your username...">
+						<span id="usernameInfo"></span>
+						<input type="text" id="username" name="userName" placeholder="Your username..." required="required" />
 					</div>
 					<div class="form-group">
 						<lable for="password">Password:</lable>
-						<input type="password" id="password" name="passWord" placeholder="Your password...">
+						<span id="passwordInfo"></span>
+						<input type="password" id="password" name="passWord" placeholder="Your password..." required="required" />
 					</div>
 					<button type="submit" class="btn-success">Login</button>
 					<a href="signup.html">New user?</a>
@@ -43,5 +46,6 @@
 	<footer>
 		<p id="copyright"> &copy; CS 215 - All rights reserved!</p> 
 	</footer>
+	<script type="text/javascript" src="js/formValidater.js"></script>
 </body>
 </html>
