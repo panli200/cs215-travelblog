@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="1049" it="0" lt="104" ct="61" ts="1617606115295" s="true" lb="Installing" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="34023" sby="272" ng="5" na="5">
+  <httpSample t="104" it="0" lt="104" ct="61" ts="1617606115295" s="true" lb="Installing-0" rc="301" rm="Moved Permanently" tn="Thread Group 1-5" dt="" by="377" sby="136" ng="5" na="5">
+    <java.net.URL>http://www.jenkins.io/doc/book/installing/</java.net.URL>
+  </httpSample>
+  <httpSample t="944" it="0" lt="904" ct="419" ts="1617606115400" s="true" lb="Installing-1" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="33646" sby="136" ng="5" na="5">
+    <java.net.URL>https://www.jenkins.io/doc/book/installing/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://www.jenkins.io/doc/book/installing/</java.net.URL>
+</httpSample>
+<httpSample t="1615" it="0" lt="259" ct="184" ts="1617606114741" s="true" lb="Installing" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="34023" sby="272" ng="5" na="5">
+  <httpSample t="266" it="0" lt="259" ct="184" ts="1617606114741" s="true" lb="Installing-0" rc="301" rm="Moved Permanently" tn="Thread Group 1-1" dt="" by="377" sby="136" ng="5" na="5">
+    <java.net.URL>http://www.jenkins.io/doc/book/installing/</java.net.URL>
+  </httpSample>
+  <httpSample t="1345" it="0" lt="1286" ct="821" ts="1617606115011" s="true" lb="Installing-1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="33646" sby="136" ng="5" na="5">
+    <java.net.URL>https://www.jenkins.io/doc/book/installing/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://www.jenkins.io/doc/book/installing/</java.net.URL>
+</httpSample>
+<httpSample t="1258" it="0" lt="119" ct="71" ts="1617606115089" s="true" lb="Installing" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="34023" sby="272" ng="5" na="5">
+  <httpSample t="119" it="0" lt="119" ct="71" ts="1617606115089" s="true" lb="Installing-0" rc="301" rm="Moved Permanently" tn="Thread Group 1-4" dt="" by="377" sby="136" ng="5" na="5">
+    <java.net.URL>http://www.jenkins.io/doc/book/installing/</java.net.URL>
+  </httpSample>
+  <httpSample t="1137" it="0" lt="1087" ct="622" ts="1617606115210" s="true" lb="Installing-1" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="33646" sby="136" ng="5" na="5">
+    <java.net.URL>https://www.jenkins.io/doc/book/installing/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://www.jenkins.io/doc/book/installing/</java.net.URL>
+</httpSample>
+<httpSample t="1634" it="0" lt="259" ct="184" ts="1617606114740" s="true" lb="Installing" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="34023" sby="272" ng="5" na="5">
+  <httpSample t="266" it="0" lt="259" ct="184" ts="1617606114740" s="true" lb="Installing-0" rc="301" rm="Moved Permanently" tn="Thread Group 1-2" dt="" by="377" sby="136" ng="5" na="5">
+    <java.net.URL>http://www.jenkins.io/doc/book/installing/</java.net.URL>
+  </httpSample>
+  <httpSample t="1363" it="0" lt="1286" ct="808" ts="1617606115011" s="true" lb="Installing-1" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="33646" sby="136" ng="5" na="5">
+    <java.net.URL>https://www.jenkins.io/doc/book/installing/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://www.jenkins.io/doc/book/installing/</java.net.URL>
+</httpSample>
+<httpSample t="1605" it="0" lt="116" ct="60" ts="1617606114888" s="true" lb="Installing" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="34023" sby="272" ng="5" na="5">
+  <httpSample t="118" it="0" lt="116" ct="60" ts="1617606114888" s="true" lb="Installing-0" rc="301" rm="Moved Permanently" tn="Thread Group 1-3" dt="" by="377" sby="136" ng="5" na="5">
+    <java.net.URL>http://www.jenkins.io/doc/book/installing/</java.net.URL>
+  </httpSample>
+  <httpSample t="1481" it="0" lt="1390" ct="819" ts="1617606115012" s="true" lb="Installing-1" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="33646" sby="136" ng="5" na="5">
+    <java.net.URL>https://www.jenkins.io/doc/book/installing/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://www.jenkins.io/doc/book/installing/</java.net.URL>
+</httpSample>
+<httpSample t="215" it="0" lt="112" ct="50" ts="1617606116363" s="true" lb="Installing" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="34021" sby="272" ng="5" na="5">
+  <httpSample t="112" it="0" lt="112" ct="50" ts="1617606116363" s="true" lb="Installing-0" rc="301" rm="Moved Permanently" tn="Thread Group 1-4" dt="" by="377" sby="136" ng="5" na="5">
+    <java.net.URL>http://www.jenkins.io/doc/book/installing/</java.net.URL>
+  </httpSample>
+  <httpSample t="103" it="0" lt="55" ct="0" ts="1617606116475" s="true" lb="Installing-1" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="33644" sby="136" ng="5" na="5">
+    <java.net.URL>https://www.jenkins.io/doc/book/installing/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://www.jenkins.io/doc/book/installing/</java.net.URL>
+</httpSample>
+<httpSample t="217" it="0" lt="112" ct="50" ts="1617606116363" s="true" lb="Installing" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="34021" sby="272" ng="5" na="5">
+  <httpSample t="112" it="0" lt="112" ct="50" ts="1617606116363" s="true" lb="Installing-0" rc="301" rm="Moved Permanently" tn="Thread Group 1-5" dt="" by="377" sby="136" ng="5" na="5">
+    <java.net.URL>http://www.jenkins.io/doc/book/installing/</java.net.URL>
+  </httpSample>
+  <httpSample t="105" it="0" lt="55" ct="0" ts="1617606116475" s="true" lb="Installing-1" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="33644" sby="136" ng="5" na="5">
+    <java.net.URL>https://www.jenkins.io/doc/book/installing/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://www.jenkins.io/doc/book/installing/</java.net.URL>
+</httpSample>
+<httpSample t="219" it="0" lt="111" ct="50" ts="1617606116363" s="true" lb="Installing" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="34021" sby="272" ng="5" na="5">
+  <httpSample t="111" it="0" lt="111" ct="50" ts="1617606116363" s="true" lb="Installing-0" rc="301" rm="Moved Permanently" tn="Thread Group 1-1" dt="" by="377" sby="136" ng="5" na="5">
+    <java.net.URL>http://www.jenkins.io/doc/book/installing/</java.net.URL>
+  </httpSample>
+  <httpSample t="107" it="0" lt="55" ct="0" ts="1617606116475" s="true" lb="Installing-1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="33644" sby="136" ng="5" na="5">
+    <java.net.URL>https://www.jenkins.io/doc/book/installing/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://www.jenkins.io/doc/book/installing/</java.net.URL>
+</httpSample>
+<httpSample t="218" it="0" lt="107" ct="53" ts="1617606116375" s="true" lb="Installing" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="34021" sby="272" ng="2" na="2">
+  <httpSample t="107" it="0" lt="107" ct="53" ts="1617606116375" s="true" lb="Installing-0" rc="301" rm="Moved Permanently" tn="Thread Group 1-2" dt="" by="377" sby="136" ng="2" na="2">
+    <java.net.URL>http://www.jenkins.io/doc/book/installing/</java.net.URL>
+  </httpSample>
+  <httpSample t="111" it="0" lt="48" ct="0" ts="1617606116482" s="true" lb="Installing-1" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="33644" sby="136" ng="2" na="2">
+    <java.net.URL>https://www.jenkins.io/doc/book/installing/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://www.jenkins.io/doc/book/installing/</java.net.URL>
+</httpSample>
+<httpSample t="207" it="0" lt="104" ct="43" ts="1617606116494" s="true" lb="Installing" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="34021" sby="272" ng="1" na="1">
+  <httpSample t="104" it="0" lt="104" ct="43" ts="1617606116494" s="true" lb="Installing-0" rc="301" rm="Moved Permanently" tn="Thread Group 1-3" dt="" by="377" sby="136" ng="1" na="1">
+    <java.net.URL>http://www.jenkins.io/doc/book/installing/</java.net.URL>
+  </httpSample>
+  <httpSample t="102" it="0" lt="53" ct="0" ts="1617606116599" s="true" lb="Installing-1" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="33644" sby="136" ng="1" na="1">
+    <java.net.URL>https://www.jenkins.io/doc/book/installing/</java.net.URL>
+  </httpSample>
+  <java.net.URL>https://www.jenkins.io/doc/book/installing/</java.net.URL>
+</httpSample>
+
+</testResults>
